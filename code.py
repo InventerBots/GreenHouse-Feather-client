@@ -25,4 +25,3 @@ print("MAC Address:", [hex(i) for i in eth.mac_address])
 print("My IP address is:", eth.pretty_ip(eth.ip_address))
 
 eth.socket_connect(0, host, port)
-# rpi=requests.get(addr)
