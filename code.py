@@ -11,9 +11,8 @@ mac=(98, 76, 19, 12, 9, 253) # 98:76:B6:12:09:ab
 host=(192,168,1,220)
 port=10004
 
-addr='192.168.1.220:10004'
-
 msg="hello"
+
 cs=DigitalInOut(board.D10)
 spi_bus=busio.SPI(board.SCK, MOSI=board.MOSI, MISO=board.MISO)
 
